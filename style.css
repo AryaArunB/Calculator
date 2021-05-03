@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  margin-top: 3vw;
+}
+table {
+  margin: auto;
+}
+input {
+  font-size: 1.5vw;
+  border: 0.5vh solid black;
+  border-radius: 1.5vh;
+  width: 30vw;
+  height: 7vh;
+}
+button {
+  width: 5vw;
+  height: 7vh;
+  margin: 1vh;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
+  border: 0.2vh solid black;
+  box-shadow: 0.5vh 0.5vh white;
+  color: white;
+  background-color: black;
+  border-radius: 1vh;
+}
+.calculator {
+  display: inline-block;
+  border: 0.5vh solid black;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-image: url("bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button:hover {
+  cursor: pointer;
+  width: 5.02vw;
+  height: 7.03vh;
+}
